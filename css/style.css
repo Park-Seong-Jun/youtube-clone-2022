@@ -1,0 +1,50 @@
+body{
+    height: 1000vh;
+}
+section {
+    box-sizing: border-box;
+}
+.header {
+    width: 100%;
+    height: 60px;
+    
+}
+.main-header{
+    position: fixed;
+    width: inherit;
+    height: inherit;
+    background-color: blue;
+    
+
+
+}
+.main {
+    display: flex;  
+}
+section:nth-child(2){
+    position: fixed;
+    width: 100%;
+
+}
+.main_nav {
+    height: 100vh;
+
+    background-color: bisque;
+    flex-grow: 10;
+    
+}
+.main_nav > nav {
+   
+    width: inherit;
+    height: inherit;
+}
+.main-contents {
+ 
+    background-color:aqua;
+    height: 100vh;
+    flex-grow: 120;
+}
+.hidden {
+    visibility: hidden;
+
+}
