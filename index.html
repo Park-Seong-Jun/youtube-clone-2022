@@ -5,26 +5,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/reset.css" />
+
+    <link
+      rel="shortcut icon"
+      href="https://www.youtube.com/s/desktop/451d4225/img/favicon_32x32.png"
+      type="image/x-icon"
+    />
     <title>YouTube</title>
   </head>
   <body>
     <section class="header">
       <header class="main-header">
-        <div class="main-header_column"></div>
-        <div class="main-header_column"></div>
-        <div class="main-header_column"></div>
+        <div class="main-header_column">
+          <i class="more-btn fas fa-bars"></i>
+          <div class="home-btn">
+            <i class="fab fa-youtube"></i>
+            <span>Premium</span>
+          </div>
+        </div>
+        <div class="main-header_column">
+          <form class="main-header_column_search">
+            <input
+              class="main-header_column_search_input"
+              type="text"
+              placeholder="Search"
+            />
+            <i class="fas fa-search main-header_column_search_input_btn"></i>
+          </form>
+          <div class="main-header_column_sound-search">
+            <i class="fas fa-microphone"></i>
+          </div>
+        </div>
+        <div class="main-header_column">
+          <i class="fas fa-video"></i>
+          <div class="main-header_column_alram">
+            <i class="far fa-bell"></i>
+            <div class="red-dot"><span>5</span></div>
+          </div>
+
+          <div class="main-header_column_account"><span>성준</span></div>
+        </div>
       </header>
     </section>
-    <section class="main">
+    <section class="main left-bar">
       <div class="main_nav">
         <nav>
-          <ol>
-            <li class="main-btns_btn">123</li>
-            <li class="main-btns_btn"></li>
-            <li class="main-btns_btn"></li>
-            <li class="main-btns_btn"></li>
-            <li class="main-btns_btn"></li>
+          <ol class="main-btns_btns">
+            <li class="main-btns_btn">
+              <i class="fas fa-home"></i>
+              <span>Home</span>
+            </li>
+            <li class="main-btns_btn">
+              <i class="fas fa-play-circle"></i>
+              <span>Shorts</span>
+            </li>
+            <li class="main-btns_btn">
+              <i class="fab fa-youtube"></i>
+              <span>Originals</span>
+            </li>
+            <li class="main-btns_btn">
+              <i class="fab fa-youtube-square"></i>
+              <span>Library</span>
+            </li>
+            <li class="main-btns_btn">
+              <i class="fas fa-download"></i>
+              <span>Downloads</span>
+            </li>
+
+            <div class="divisor"></div>
           </ol>
         </nav>
       </div>
@@ -34,7 +82,7 @@
     <section class="main">
       <div class="main_nav hidden">
         <nav>
-          <ol>
+          <ol class="main-btns_btns">
             <li class="main-btns_btn"></li>
             <li class="main-btns_btn"></li>
             <li class="main-btns_btn"></li>
@@ -44,7 +92,137 @@
         </nav>
       </div>
 
-      <main class="main-contents"><span>123</span></main>
+      <main class="main-contents">
+        <div class="main-contents_preview">
+          <img
+            class="main-contents_preview_img"
+            src="https://i.ytimg.com/vi/FF6CF8TZIhE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBmA_YOsoQFn6noXKlOUMEu7sP3bA"
+            alt=""
+          />
+          <div class="main-contents_preview_info">
+            <img
+              class="main-contents_preview_info_channel-img"
+              src="https://yt3.ggpht.com/ytc/AMLnZu9oK13cNMbLQY4tdSv9a0CWOFlwlfdAF-UDM3ZUmg=s68-c-k-c0x00ffffff-no-rj"
+            />
+            <div class="main-contents_preview_info_txt">
+              <span class="main-contents_preview_info_txt_title"
+                >5 Mistakes Beginners Make Learning to Code</span
+              >
+              <span>노마드 코더 Nomad Coders</span>
+              <div class="main-contents_preview_info_txt_num">
+                <span>516K views</span>
+                <div class="dot"></div>
+                <span>2 years ago</span>
+              </div>
+            </div>
+            <i class="fas fa-ellipsis-v"></i>
+          </div>
+        </div>
+        <div class="main-contents_preview">
+          <img
+            class="main-contents_preview_img"
+            src="https://i.ytimg.com/vi/FF6CF8TZIhE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBmA_YOsoQFn6noXKlOUMEu7sP3bA"
+            alt=""
+          />
+          <div class="main-contents_preview_info">
+            <img
+              class="main-contents_preview_info_channel-img"
+              src="https://yt3.ggpht.com/ytc/AMLnZu9oK13cNMbLQY4tdSv9a0CWOFlwlfdAF-UDM3ZUmg=s68-c-k-c0x00ffffff-no-rj"
+            />
+            <div class="main-contents_preview_info_txt">
+              <span class="main-contents_preview_info_txt_title"
+                >5 Mistakes Beginners Make Learning to Code</span
+              >
+              <span>노마드 코더 Nomad Coders</span>
+              <div class="main-contents_preview_info_txt_num">
+                <span>516K views</span>
+                <div class="dot"></div>
+                <span>2 years ago</span>
+              </div>
+            </div>
+            <i class="fas fa-ellipsis-v"></i>
+          </div>
+        </div>
+        <div class="main-contents_preview">
+          <img
+            class="main-contents_preview_img"
+            src="https://i.ytimg.com/vi/FF6CF8TZIhE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBmA_YOsoQFn6noXKlOUMEu7sP3bA"
+            alt=""
+          />
+          <div class="main-contents_preview_info">
+            <img
+              class="main-contents_preview_info_channel-img"
+              src="https://yt3.ggpht.com/ytc/AMLnZu9oK13cNMbLQY4tdSv9a0CWOFlwlfdAF-UDM3ZUmg=s68-c-k-c0x00ffffff-no-rj"
+            />
+            <div class="main-contents_preview_info_txt">
+              <span class="main-contents_preview_info_txt_title"
+                >5 Mistakes Beginners Make Learning to Code</span
+              >
+              <span>노마드 코더 Nomad Coders</span>
+              <div class="main-contents_preview_info_txt_num">
+                <span>516K views</span>
+                <div class="dot"></div>
+                <span>2 years ago</span>
+              </div>
+            </div>
+            <i class="fas fa-ellipsis-v"></i>
+          </div>
+        </div>
+        <div class="main-contents_preview">
+          <img
+            class="main-contents_preview_img"
+            src="https://i.ytimg.com/vi/FF6CF8TZIhE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBmA_YOsoQFn6noXKlOUMEu7sP3bA"
+            alt=""
+          />
+          <div class="main-contents_preview_info">
+            <img
+              class="main-contents_preview_info_channel-img"
+              src="https://yt3.ggpht.com/ytc/AMLnZu9oK13cNMbLQY4tdSv9a0CWOFlwlfdAF-UDM3ZUmg=s68-c-k-c0x00ffffff-no-rj"
+            />
+            <div class="main-contents_preview_info_txt">
+              <span class="main-contents_preview_info_txt_title"
+                >5 Mistakes Beginners Make Learning to Code</span
+              >
+              <span>노마드 코더 Nomad Coders</span>
+              <div class="main-contents_preview_info_txt_num">
+                <span>516K views</span>
+                <div class="dot"></div>
+                <span>2 years ago</span>
+              </div>
+            </div>
+            <i class="fas fa-ellipsis-v"></i>
+          </div>
+        </div>
+        <div class="main-contents_preview">
+          <img
+            class="main-contents_preview_img"
+            src="https://i.ytimg.com/vi/FF6CF8TZIhE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBmA_YOsoQFn6noXKlOUMEu7sP3bA"
+            alt=""
+          />
+          <div class="main-contents_preview_info">
+            <img
+              class="main-contents_preview_info_channel-img"
+              src="https://yt3.ggpht.com/ytc/AMLnZu9oK13cNMbLQY4tdSv9a0CWOFlwlfdAF-UDM3ZUmg=s68-c-k-c0x00ffffff-no-rj"
+            />
+            <div class="main-contents_preview_info_txt">
+              <span class="main-contents_preview_info_txt_title"
+                >5 Mistakes Beginners Make Learning to Code</span
+              >
+              <span>노마드 코더 Nomad Coders</span>
+              <div class="main-contents_preview_info_txt_num">
+                <span>516K views</span>
+                <div class="dot"></div>
+                <span>2 years ago</span>
+              </div>
+            </div>
+            <i class="fas fa-ellipsis-v"></i>
+          </div>
+        </div>
+      </main>
     </section>
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

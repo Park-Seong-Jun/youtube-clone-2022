@@ -1,0 +1,38 @@
+.main_nav {
+    height: 100vh;   
+    width:200px;
+    padding: 10px;
+    box-sizing: border-box;
+    
+}
+
+.main-btns_btns {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+.main-btns_btn {
+    
+    
+    height: 40px;
+    
+    display: flex;
+  
+    align-items: center;
+    
+    border-radius: 10px;
+    padding: 0 10px;
+}
+.main-btns_btn span {
+    margin-left: 20px;
+    font-size: 12px;
+    font-weight: 500;
+}
+.divisor {
+    width: inherit;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.121);
+
+}
