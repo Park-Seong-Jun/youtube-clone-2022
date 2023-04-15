@@ -1,8 +1,9 @@
+
 .main_nav {
     height: 100vh;   
-    width:200px;
     padding: 10px;
-    box-sizing: border-box;
+    width: inherit;
+
     
 }
 
@@ -10,20 +11,24 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: inherit;
 
 
 }
 .main-btns_btn {
     
-    
     height: 40px;
-    
     display: flex;
-  
     align-items: center;
-    
     border-radius: 10px;
-    padding: 0 10px;
+    padding-left: 10px;
+}
+.main-btns_btn:hover {
+    background-color: rgba(0, 0, 0, 0.121);
+    border-radius: 10px;
+}
+.main-btns_btn i {
+    width: 20px
 }
 .main-btns_btn span {
     margin-left: 20px;
